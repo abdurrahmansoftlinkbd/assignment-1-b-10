@@ -51,6 +51,10 @@
   border: none;
   outline: none;
 }
+.developer-btn button a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
 
 /* webdev styles */
 #webdev {
@@ -334,8 +338,115 @@
 }
 .next-mongo {
   margin-top: 22px;
+  margin-bottom: 41px;
   border: 1px solid rgba(13, 19, 33, 0.15);
 }
 .next-mongo-img {
   margin: 14px 0px;
 }
+
+/* support styles */
+#support {
+  width: 981px;
+  height: 175px;
+  padding: 60px 45px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../assets/handshake.jpg");
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.support-content {
+  width: 686px;
+  height: 98px;
+  text-align: center;
+  margin: 0px 147px 0px 147px;
+}
+.support-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+.support-content p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.7;
+  margin: 15px 58px 0px 58px;
+  text-align: center;
+}
+.support-form {
+  text-align: center;
+  margin-top: 22px;
+}
+.support-form input {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 18px 19px;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 477px;
+  height: 17px;
+  margin: 0px 15px 169px 0px;
+  border: none;
+  outline: none;
+}
+.support-form button {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  padding: 16px 19px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: -2px;
+}
+
+/* footer styles */
+.footer-container {
+  width: 1061px;
+  height: 34px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 30px 141px;
+  margin: 74px auto 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-head {
+  width: 366px;
+  height: 22px;
+}
+.footer-head h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-top: 8px;
+}
+.footer-img img {
+  cursor: pointer;
+}
+
