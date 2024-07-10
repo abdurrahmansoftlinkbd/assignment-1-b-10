@@ -178,3 +178,115 @@
 .webdev-box-3-img {
   margin: 25px 16px 25px 141px;
 }
+
+/* inspiration styles */
+#inspiration {
+  width: 1071px;
+  height: 730px;
+  margin: 83px auto 0px;
+}
+.inspiration-content {
+  width: 800px;
+  text-align: center;
+  margin: 0px 135px 0px 135px;
+}
+.inspiration-content h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35px;
+  text-align: center;
+}
+.inspiration-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 22px;
+}
+.inspiration-video {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 30px;
+  margin-top: 45px;
+}
+.inspiration-video iframe {
+  border-radius: 16px;
+}
+
+/* target styles */
+#target {
+  width: 1071px;
+  height: 435px;
+  margin: 140px auto 0px;
+}
+.target-container {
+  width: 1071px;
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin: 45px auto 0px;
+}
+.target-item {
+  padding: 37px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  width: 267px;
+  height: 207px;
+}
+.target-item h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 34px;
+  text-align: left;
+  margin-top: 22px;
+}
+.target-item p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  opacity: 0.7;
+  margin-top: 7px;
+}
+.target-item a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.target-css {
+  background: rgba(0, 76, 232, 0.05);
+}
+.target-javascript {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+/* next styles */
+#next {
+  width: 1071px;
+  height: 816px;
+  margin: 104px auto 0px;
+}
+.next-container {
+  width: 1071px;
+  margin-top: 45px;
+}
+.next-item {
+  width: 996px;
+  height: 130px;
+  padding: 37px;
+  display: flex;
+  gap: 22px;
+}
